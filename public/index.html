@@ -11,7 +11,7 @@
   <meta property="fb:admins" content="821067414666897">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Yacht Club</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="http://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -20,11 +20,13 @@
       <h1 class="main-logo">The Yacht Club</h1>
     </header>
     <section class="wrapper">
-      <div class="video">
-        <div class="fluid-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8YyZTna44TY" autoplay="true" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
+      <a class="fall-link" href="https://theyachtclub.bandcamp.com/album/fall" target="_blank">
+        <img src="images/fall-cover.jpg" />
+      </a>
+      <p class="fall-description">
+        New EP 'Fall' out now! Available on all major streaming music services.<br />
+        <span class="small">Physical copies sold through <a href="https://theyachtclub.bandcamp.com/album/fall" target="_blank">Bandcamp</a></span>.
+      </p>
       <div class="social">
         <ul>
           <li><a title="Facebook" class="social-link facebook" target="_blank" href="https://facebook.com/theyachtclubuk">Facebook</a></li>
@@ -33,21 +35,19 @@
           <li><a title="Bandcamp" class="social-link bandcamp" target="_blank" href="http://theyachtclub.bandcamp.com">Bandcamp</a></li>
         </ul>
       </div>
-      <a class="fall-link" href="https://theyachtclub.bandcamp.com/album/fall" target="_blank">
-        <img src="images/fall-cover.jpg" />
-      </a>
-      <p class="fall-description">
-        New EP 'Fall' out now! Available on all major streaming music services.<br />
-        <span class="small">Physical copies sold through <a href="https://theyachtclub.bandcamp.com/album/fall" target="_blank">Bandcamp</a></span>.
-      </p>
+      <div class="video">
+        <div class="fluid-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8YyZTna44TY?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
     </section>
     <footer>
       <a class="site-credits" href="http://alexesp.co.uk" target="_blank"></a>
-      <script>
-        var siteCredits = document.querySelector('.site-credits')
-        siteCredits.innerHTML = 'Alex Esp &copy; ' + (new Date()).getFullYear()
-      </script>
     </footer>
+    <script>
+      var siteCredits = document.querySelector('.site-credits')
+      siteCredits.innerHTML = '&copy; Alexander Esp ' + (new Date()).getFullYear()
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

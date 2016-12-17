@@ -1,5 +1,5 @@
 start:
-	npm run start
+	@node .
 
-deploy:
-	pm2 deploy
+deploy-production:
+	@pm2 deploy production
