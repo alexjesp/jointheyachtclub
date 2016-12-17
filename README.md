@@ -1,2 +1,4 @@
-jointheyachtclub.com
-===
+jointheyachtclub
+====
+
+[jointheyachtclub.com](http://www.jointheyachtclub.com)
