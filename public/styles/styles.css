@@ -2,14 +2,14 @@
 
 body {
   background-color: #cfc0a6;
-  background-image: url(images/bgark.jpg);
+  background-image: url(../images/bgark.jpg);
   background-size: 500px;
   background-position: center;
   font: 15px/20px 'Arvo', serif;
 }
 
 .gradient {
-  background-image: url(images/bgark-rpt.png);
+  background-image: url(../images/bgark-rpt.png);
   background-repeat: repeat-x;
 }
 
@@ -21,7 +21,7 @@ header {
   text-align: center;
   text-indent: -9999px;
   overflow: hidden;
-  background: url(images/logo.png) no-repeat center center;
+  background: url(../images/logo.png) no-repeat center center;
   background-size: contain;
   width: 600px;
   height: 70px;
@@ -118,21 +118,21 @@ a:active {
 }
 
 .facebook {
-  background-image: url("images/facebook-icon.png");
+  background-image: url("../images/facebook-icon.png");
 }
 
 .twitter {
-  background-image: url("images/twitter-icon.png");
+  background-image: url("../images/twitter-icon.png");
   width: 27px;
 }
 
 .instagram {
-  background-image: url("images/instagram-icon.png");
+  background-image: url("../images/instagram-icon.png");
 }
 
 .bandcamp {
   margin-top: 5px;
-  background-image: url("images/bandcamp-icon.png");
+  background-image: url("../images/bandcamp-icon.png");
   background-size: cover;
   width: 181px;
   height: 27px;
